@@ -1,0 +1,22 @@
+{
+  "name": "@nodon-tech/eslint-config",
+  "version": "0.0.1",
+  "description": "Nodon ESLint rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "eslint-config-prettier": ">= 8",
+    "eslint-plugin-prettier": ">= 4",
+    "prettier": ">= 2",
+    "typescript": ">= 4",
+    "@typescript-eslint/eslint-plugin": ">= 5",
+    "@typescript-eslint/parser": ">= 5"
+  },
+  "keywords": [],
+  "author": "Nodon",
+  "license": "ISC"
+}
