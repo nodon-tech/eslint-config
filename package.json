@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "test": "exit 0",
-    "publish": "npm version minor && git push && npm publish --access public"
+    "release:minor": "npm version minor && git push && npm publish --access public"
   },
   "dependencies": {},
   "peerDependencies": {
