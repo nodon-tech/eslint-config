@@ -1,6 +1,6 @@
 {
   "name": "@nodon-tech/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Nodon ESLint rules",
   "scope": "@nodon-tech",
   "main": "index.js",
