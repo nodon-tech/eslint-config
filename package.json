@@ -2,9 +2,12 @@
   "name": "@nodon-tech/eslint-config",
   "version": "0.0.1",
   "description": "Nodon ESLint rules",
+  "scope": "@nodon-tech",
   "main": "index.js",
+  "private": false,
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "publish": "npm version minor && git push && npm publish --access public"
   },
   "dependencies": {},
   "peerDependencies": {
